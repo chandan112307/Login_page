@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic
+}
+body{
+    background-image: url("LandScape3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.form-container h1{
+    text-align: center;
+    font-size: 36px;
+}
+.form-container .user-input{
+    margin: 30px 0px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.form-container .user-input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 45px 20px 20px;
+    color: #fff;
+}
+.user-input input::placeholder{
+    color: #fff !important;
+}
+.user-input i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+.form-container .rem-me {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0px 15px;
+}
+.rem-me label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.rem-me a{
+    text-decoration: none;
+    color: #fff;
+}
+.rem-me a:hover{
+    text-decoration: underline;
+}
+.form-container button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.form-container .sign-up {
+    text-align: center;
+    margin: 20px 0px 15px;
+    font-size: 14.5px;
+}
+.form-container p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.form-container p a:hover{
+    text-decoration: underline;
+}
